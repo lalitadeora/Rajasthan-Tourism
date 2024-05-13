@@ -1,0 +1,139 @@
+
+.contactimage{
+    background-image: url("header-bg\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.contactimage h2,a{
+    color: #fff;
+   
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+.contactimage p{
+    color: #fff;
+    
+    opacity: 0.5;
+    margin: 0 30px;
+}
+.contactbody{
+    width: 1400px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.contactinfo{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    
+}
+.contactinfo div{
+    margin: 30px ;
+    padding:10px;
+    text-align: center;
+    background: linear-gradient(to right,#f7f5f5,rgb(223,246,244));
+     padding: 20px;
+}
+.contactinfo div span{
+    display: block;
+    margin-top:10px;
+    line-height: 25px;
+}
+.contactinfo div span i{
+    color: rgb(101, 198, 236);
+    font-size: 28px;
+    font-weight: bolder;
+}
+.contactinfo div span:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+.contactform{
+    width: 1400px;
+    margin:25px auto;
+    padding: 20px;
+    background-color:rgb(238,246,246);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+.contactform h2{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+.btn1{
+    background-color: #1493ee;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding:12px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 15px;
+}
+.forminput{
+    margin:12px 0;
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 17px;
+
+}
+form{
+padding:20px;
+}
+form div{
+    display: grid;
+    grid-template-columns: repeat(2,1 fr);
+    column-gap: 14px;
+}
+.map{
+    margin:20px auto;
+}
+.map i{
+    border-radius: 5px;
+}
+@media only screen and(min-width:0px) and(max-width:1405px){
+    .contactimage{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contactbody{
+        width:100%;
+    }
+    .contactinfo{
+        display: block;
+    }
+    .contactinfo div{
+        margin-bottom: 10px;
+    }
+    .contactform{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+width: 100%;
+margin: 0 auto;
+    }
+
+}
+
+

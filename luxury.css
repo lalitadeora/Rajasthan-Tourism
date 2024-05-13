@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.outer{
+    background-color:rgb(252, 250, 241);
+    height: 1200px;
+}
+.ww{
+    font-size: 30px;
+    margin-top: 10px;
+margin-left: 90%;
+   
+}
+
+.slider{
+
+    width: auto;
+    height: 550px;
+}
+
+
+
+.gimage{
+    width: 1200px;
+    height: 200px;
+    
+}
+.gimg{
+ width: 1200px;
+ height: 125px;
+ margin-top: 30px;
+ margin-left: 30px;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ background-color: rgba(255, 240, 250, 0.534);
+ color: black;
+ top: 90px;
+ left: 50%;
+ font-size: 15px;
+}
+.menubar{
+ width: 990px;
+ height: 50px;
+ margin-top: 40px;
+
+ background-color: rgba(72, 74, 71, 0.174);
+ float: right;
+ margin-right: 70px;
+}
+.menus{
+    width: 120px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.menus:hover{
+    color: red;
+}
+.logo{
+   width: 50px;
+   height: 100px;
+  
+   border-radius: 50%; 
+   float: left;
+   margin: 10px;
+}
+
+.text{
+    width: 1000px;
+    position: absolute;
+    top: 300px;
+    font-size: 90px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    color: rgb(198, 130, 41);
+    text-align: center;
+    text-transform: capitalize;
+ }
+ .logo img{
+    border-radius: 50px;
+ }
+ .adventurepara{
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    margin-top: 20px;
+    font-weight: 400;
+   
+ text-transform: capitalize;
+  font-size: 23.2px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.advhead{
+    text-align: center;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 70%;
+   
+    
+    
+    background-color: antiquewhite;
+    
+    
+ }
+ 
+ 
+    
+ 
+ .hotel{
+    margin-top: 350px;
+    padding: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+     height: 790px;
+      align-items: center;
+     text-align: center;
+     font-size: 28px;
+     font-weight: 300;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .hotel h1{
+    background-color: antiquewhite;
+    border-radius: 70%;
+ }
+ 
+ .hot1{
+     width: 400px;
+     height: 300px;
+     background-color: #e8439314;
+     align-items: center;
+     display: grid;
+     float: right;
+     margin: 20px;
+     margin-right:70px ;
+     box-shadow: #233e2569 15px 5px 5px 5px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .footercontainer{
+    height: 270px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    margin: 12px;
+    font-weight: 300px;   
+}
+.content h2{
+    color: #ffffff;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+color:#adb5bd;
+font-size: 20px;
+margin-top: 10px;
+font-weight: 300px;
+
+}
+.content a{
+background-color:#f5f6fa;
+height: 100%;
+width: 100%;
+border-radius: 50%;
+margin:12px;
+padding: 5px;
+}
+.fa-instagram{
+color: #e84393;
+}
+.fa-facebook{
+    color: rgb(71, 71, 232);
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.content i{
+    font-size: 15px;
+}
+.content i{
+    margin-top: 12px;
+}
+.copyrighttext{
+    width: 100%;
+    background-color:#232f3e;
+    padding:20px 100px 30px;
+    text-align: center;
+    color:black;
+}
+.copyrighttext p{
+    font-size: 1rem;
+    color: #adbfbd;
+}
+

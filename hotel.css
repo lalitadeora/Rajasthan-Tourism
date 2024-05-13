@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.ww{
+    font-size: 30px;
+    margin-top: 10px;
+margin-left: 90%;
+   
+}
+
+
+.slider{
+
+    width: auto;
+    height: 550px;
+}
+
+
+
+.gimage{
+    width: 1200px;
+    height: 200px;
+    
+}
+.gimg{
+ width: 1200px;
+ height: 125px;
+ margin-top: 30px;
+ margin-left: 30px;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ background-color: rgba(255, 240, 250, 0.534);
+ color: black;
+ top: 90px;
+ left: 50%;
+ font-size: 15px;
+}
+.menubar{
+ width: 990px;
+ height: 50px;
+ margin-top: 40px;
+ background-color: rgba(72, 74, 71, 0.174);
+ float: right;
+ margin-right: 70px;
+}
+.menus{
+    width: 120px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.menus:hover{
+    color: red;
+}
+.logo{
+   width: 50px;
+   height: 100px;
+  
+   border-radius: 50%; 
+   float: left;
+   margin: 10px;
+}
+
+.text{
+    width: 1000px;
+    position: absolute;
+    top: 240px;
+    font-size: 80px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    color:whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+ }
+ .logo img{
+    border-radius: 50px;
+ }
+
+.aboutjodhpurheading{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 1px dotted rgb(35, 34, 34);
+
+    
+}
+.aboutjodhpurcontent p{
+    line-height: 30px;
+    margin: 10px 90px 10px 90px;
+    font-size: 30px;
+    font-weight: 600;
+font-style: italic;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(65, 63, 63);
+    text-transform: capitalize;
+}
+body{
+    background-color:rgb(226, 236, 240);
+}
+
+
+.hotel{
+    padding: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+     height: 790px;
+      align-items: center;
+     text-align: center;
+     font-size: 28px;
+     font-weight: 300;
+     background-color: rgba(178, 157, 209, 0.337);
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+ }
+ .activitycontainer{
+    height:950px;
+    margin-top: 25px;
+}
+
+.activities h1{
+text-align: center;
+font-weight: 700;
+font-size: 3rem;
+}
+#active{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #ffffff;
+    margin: 40px;
+    padding: 15px;
+    border-width: 60%;
+    box-shadow: #233e2569 15px 5px 5px 5px;
+}
+
+#active a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: #0c1011;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    padding: 2px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+   
+}
+.activitiesname{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.activities{
+    text-align: center;
+    font: 1em sans-serif;
+    text-decoration: dashed;
+    text-transform: capitalize;
+}
+
+
+.footercontainer{
+    margin-top:600px;
+    height: 270px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    margin: 12px;
+    font-weight: 300px;   
+}
+.content h2{
+    color: #ffffff;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+color:#adb5bd;
+font-size: 20px;
+margin-top: 10px;
+font-weight: 300px;
+
+}
+.content a{
+background-color:#f5f6fa;
+height: 100%;
+width: 100%;
+border-radius: 50%;
+margin:12px;
+padding: 5px;
+}
+.fa-instagram{
+color: #e84393;
+}
+.fa-facebook{
+    color: rgb(71, 71, 232);
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.content i{
+    font-size: 15px;
+}
+.content i{
+    margin-top: 12px;
+}
+.copyrighttext{
+    width: 100%;
+    background-color: #232f3e;
+    padding:20px 100px 30px;
+    text-align: center;
+    color:black;
+}
+.copyrighttext p{
+    font-size: 1rem;
+    color: #adbfbd;
+}

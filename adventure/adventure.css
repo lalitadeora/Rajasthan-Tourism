@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f7ba6f5a;
+}
+header{
+    height:420px;
+    width: 100%;
+}
+.img{
+    height: 400px;
+}
+.text{
+    width: 1000px;
+    position: absolute;
+    top: 350px;
+    font-size: 60px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    color: rgb(240, 198, 140);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 900;
+    text-transform: capitalize;
+ }
+ 
+ .advhead{
+    text-align: center;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px
+    
+ }
+  .adventurepara{
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    font-weight: 400;
+ text-transform: capitalize;
+  font-size: 20px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ .advcontainer{
+   height: 950px;
+    margin-top: 398px;
+}
+
+.adv h1{
+text-align: center;
+font-weight: 700;
+font-size: 3rem;
+}
+#active{
+    height: 420px;
+    width: 400px;
+    border: 2px solid #ffffff;
+    margin: 20px;
+   padding: 15px;
+    border-width: 70%;
+    box-shadow: 0px -25px 20px -20px rgba(187, 136, 94, 0.45),
+25px 0px 20px -20px rgba(0,0,0,0.45),
+0px 25px 20px -20px rgba(0,0,0,0.45),
+-25px 0px 20px -20px rgba(0,0,0,0.45);
+
+
+}
+.active img{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#active h2{
+    text-align: start;
+    text-decoration: none;
+    font-size: 30px;
+    color: #0c1011;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.adventuresname{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footercontainer{
+    height: 270px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    margin: 12px;
+    font-weight: 300px;   
+}
+.content h2{
+    color: #ffffff;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+color:#adb5bd;
+font-size: 20px;
+margin-top: 10px;
+font-weight: 300px;
+
+}
+.content a{
+background-color:#f5f6fa;
+height: 100%;
+width: 100%;
+border-radius: 50%;
+margin:12px;
+padding: 5px;
+}
+.fa-instagram{
+color: #e84393;
+}
+.fa-facebook{
+    color: rgb(71, 71, 232);
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.content i{
+    font-size: 15px;
+}
+.content i{
+    margin-top: 12px;
+}
+.copyrighttext{
+    width: 100%;
+    background-color:#232f3e;
+    padding:20px 100px 30px;
+    text-align: center;
+    color:black;
+}
+.copyrighttext p{
+    font-size: 1rem;
+    color: #adbfbd;
+}
+

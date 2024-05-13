@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    
+    
+    
+   
+
+    
+</head>
+<body>
+    <div class="outer">
+         <div class="slider" >
+            <img src="image/img1.jpg " width="100%" height="100%"><div class="gimage"><div class="gimg" style="position: fixed;">
+                <div class="logo"><img src="image/kh.jpg " width="100px" height="100%"></div>
+                <div class="menubar">
+                   <a href="index.html"><div class="menus">HOME</div></a> 
+                    <div class="menus1"> DESTINATION      <div class="drop" style="overflow-y: scroll;">
+                        
+                         <ul type="none" > <a href="jodhpur.html"><li >jodhpur</li></a>
+                                                           <a href="jaipur.html"><li>jaipur</li></a>
+                                                              <a href="jaisalmer.html"><li>jaisalmer</li></a>
+                                                                <a href="udipur.html"> <li>udipur</li></a>
+                                                                   <a href="sawai madhopur.html"> <li>sawai madhopur</li></a>
+                                                                       <a href="ajmer.html"><li>Ajmer</li></a>
+                                                                        <a href="alwar.html"> <li>alwar</li></a>
+                                                                           <a href="Chittorgarh.html"><li>Chittorgarh</li></a>
+                                                                                <a href="sirohi.html"><li>sirohi</li></a>
+                                                                                  <a href="bikaner.html"><li>bikaner</li></a></ul></div></div>
+
+
+
+                                                                                  <div class="menus1"> <a href="about.html" >ABOUT US</a>  <div class="drop" style="overflow-y: scroll;"> <ul type="none"> <a href="forts.html"><li>Forts</li></a>
+                                                                                    <a href="museum.html"><li>Museum</li></a>
+                                                                                       <a href="palaces.html"><li>Palace</li></a>
+                                                                                         <a href="Lakes .html"> <li>lake</li></a>
+                                                                                            <a href="fair&festival.html"> <li>Fair&Festival</li></a>
+                                                                                              </ul></div></div>
+                                                                      
+                   <a href="gallery.html"> <div class="menus">GALLERY</div></a>
+                    <a href="contact us/contactus.html"><div class="menus">CONTACT US</div></a>
+                    <div class="menus">PACKAGES</div>
+                   <a href="services.html"> <div class="menus">SERVICES</div></a>
+
+                   <div class="ww">
+                    <a href="registration.html"><element class="bi-person-fill" ::before></element> </a>
+                              
+                               
+                    <element class="bi-search" ::before></element>
+        
+
+   </div>
+
+                </div>
+            </div><div class="text"><h3>Padharo Mhare Desh</h3></div>
+            
+        </div>
+        </div>
+        <div class="de"></div>
+
+        <div class="information">
+            <div class="inf1"> <img src="image/hill.jpg" width="100%" height="100%">
+                <div class="hill">Famous Hill Station </br>in Rajasthan</div>
+            </div>
+           
+            <div class="inf2"><h1>Hill Station</h1>
+                
+           <p>The Famous Hill Station located in Rajasthan in one of the prime places to visit in the lush green hills and Historical architecture in abundance in abundance. The Hill Station of Rajasthan Mount Abu is famous one of the best stunning with the Aravalli mountains.Its well connected by road. Nearest Rail Station is Abu Road.</p>
+      <a href="hill.html"> <button style="height: 30px; width: 80px; text-align: center; margin-left: 80px; background-color: rgba(165, 42, 42, 0.237);">show more</button></a> 
+       
+        </div>
+        </div>
+        <div class="des">Popular Packages</div>
+        <div class="gallery-wrap">
+            <img src="image/ge.jpg" id="backbtn">
+            <div class="gallery">
+
+
+                <div>
+                    
+                   <span> <img src="image/Clock-Tower-Jodhpur.jpg" width="100%" height="275px"/><p>jodhpur packages.</br>create wonderful memories with your friend's & family</p><input class="button" value="Booking now"/></span>
+                   <span> <img src="image/Hawa-Mahal.jpg" width="100%" height="275px"/><p>Jaipur packages</br>create wonderful memories with your friend's & family</p><input class="button" value="Booking now"/></span>
+                    <span> <img src="image/udipur.jpg" width="100%" height="275px"><p>udipur packages</br>create wonderful memories with your friend's & family</p><input class="button" value="Booking now"/></span>
+                      
+                </div>
+                <div>
+                    <span> <img src="image/Rampuria-Haveli-Bikaner.jpg" width="100%" height="275px"><p>bikaner packages</br>create wonderful memories with your friend's & family</p><input class="button" value="Booking now"/></span>
+                    <span> <img src="image/ajmerjpg.jpg" width="100%" height="275px"><p>Ajmer packages</br>create wonderful memories with your friend's & family</p><input class="button" value="Booking now"/></span>
+                        <span>    <img src="image/img1.jpg" width="100%" height="275px"><p>jaislmer packages</br>create wonderful memories with your friend's & family</p><input class="button" value="Booking now"/></span>
+               
+            </div>
+            
+            </div>
+            
+            
+        <img src="image/ge1.jpg" id="nextbtn">
+        </div>
+        <script>
+            let scrollcontainer= document.querySelector(".gallery");
+            let backbtn = document.getElementById("backbtn");
+            let nextbtn = document.getElementById("nextbtn");
+         
+            scrollcontainer.addEventListener("wheel",(evt)=>{
+            scrollcontainer.scrollLeft+= evt.deltav;
+            });
+        
+            nextbtn.addEventListener("click", ()=>{
+                scrollcontainer.style.scrollBehavior= "smooth";
+                scrollcontainer.scrollLeft += 500;
+            });
+        
+            backbtn.addEventListener("click", ()=>{
+                scrollcontainer.style.scrollBehavior= "smooth";
+                scrollcontainer.scrollLeft -= 500;
+            });
+        
+        </script>
+        <div class="activitycontainer">
+            <div class="activities"><h1>Must Do Activities</h1></div>
+            <div class="1stactivitiesname activitiesname" >
+                <a href="safari.html"><div class="1stactivity" id="active" style="color: black;"> <h2>Safari</h2> <img src="Wildlife-safari-in-Rajasthan.jpg" alt=" image" height="350px" width="360px"></div></a>
+                <a href="food.html">  <div class="2ndactivity" id="active" style="color: black;"><h2>Lip Smacking Delicacies</h2><img src="food.jpg" alt=" image" height="350px" width="360px"></div></a>
+                <a href="trekking.html"><div class="3rdactivity" id="active"  style="color: black;"> <h2>Trekking</h2><img src="Trekking.jpg" alt="image" height="350px" width="360px"></div></a>
+            </div>
+            <div class="2ndactvitiesname activitiesname">
+                <a href="temple.html"><div class="4thactivity" id="active"  style="color: black;"><h2>Temple Visit</h2><img src="temples.jpg" alt=" image" height="350px" width="360px"></div></a>
+                <a href="shopping.html"><div class="5thactivity" id="active" style="color: black;"><h2>shopping</h2><img src="shopping.jpg" alt=" image" height="350px" width="360px"></div></a>
+                <a href="fair&festival.html"><div class="6thactivity" id="active" style="color: black;"><h2>Festival And Fairs</h2><img src="festivalandfairs.jpg" alt="safari image" height="350px" width="360px"></div></a>
+            </div>
+            </div>
+
+
+            <div class="explore"><h1>Explore the land of Rajasthan</h1>
+                     <div class="state"><img src="image/jai1.jpg" width="290px" height="230px">_Jaisalmer_Fort_</div>
+                     <div class="state"><img src="image/5.jpg" width="290px" height="230px">_Mount_Abu</div>
+
+                    
+                     <div class="state"><img src="image/3.jpg" width="290px" height="230px">_udipur</div>
+                     <div class="state"><img src="image/Jodhpur_mehrangarh_fort.jpg" width="290px" height="230px">_mehrangarh_fort_Jodhpur</div>
+                     <div class="state"><img src="image/bikaner.jpg" width="290px" height="230px">_bikaner</div>
+                     <div class="state"><img src="image/pushkar.jpg" width="290px" height="230px">_Pushkar_</div>
+                     <div class="state"><img src="image/jaipur.jpg" width="290px" height="230px">_Hawa_Mahal_jaipur</div>
+                     
+                     <div class="state"><img src="image/ajmerjpg.jpg" width="290px" height="230px">_Ajmer_</div>
+
+
+            </div>
+
+
+            <div class="services">
+                <div class="sheading">
+                    <h2>our services</h2>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="cont">
+                            <a href="hotel.html"><h4>hotels</h4></a>
+                            <i class="fa-solid fa-hotel icon"></i>
+                           
+                        </div>
+                    </div>
+            
+            
+                    <div class="box">
+                        <div class="cont">
+                            <a href="adventure/adventure.html"><h4>adventure</h4></a>
+              
+                            <i class="fa-solid fa-hotel icon"></i>
+                                      </div>
+                    </div>
+            
+                    <div class="box">
+                        <div class="cont">
+                            <a href="food.html"><h4>food</h4></a>
+                            <i class="fa-solid fa-hotel icon"></i>
+                           
+                        </div>
+                    </div>
+            
+                    <div class="box">
+                        <div class="cont " >
+                            <a href="luxury.html" ><h4 style="padding-top: 2px;">luxury on wheels</h4></a>
+                            <i class="fa-solid fa-hotel icon"></i>
+                            
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="cont">
+                            <a href="weddings.html"><h4>wedding</h4></a>
+                            <i class="fa-solid fa-hotel icon"></i>
+                           
+                        </div>
+                    </div>
+            
+                    
+            
+            
+                   
+            
+                    
+            
+            
+            
+                </div>
+            </div>
+
+
+           
+            <div class="reviewheading">OUR GUESTS LOVE US</div>
+            <div class="gallery-wrap">
+                <img src="image/ge.jpg" id="backbtnn">
+                
+                
+             <div class="reviewcontainer">
+                
+                   
+                    <div class="reviews">
+                    <div id="firstreview">
+                        <div class="reviewcontent">
+                            <div><img src="Wildlife-safari-in-Rajasthan.jpg" alt="reviews" height="100px" width="100px" style="border: 2px solid black; border-radius: 50%;"></div>
+                            <div class="reviewpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate laborum natus quos excepturi vel sapiente molestias repudiandae explicabo eos deserunt. Aperiam voluptatum autem exercitationem qui!.</div>
+                            <div class="reviewername"><h3>Nathan D.</h3></div>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked" ></span>
+                                  <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="firstreview">
+                        <div class="reviewcontent">
+                            <div><img src="Wildlife-safari-in-Rajasthan.jpg" alt="reviews" height="100px" width="100px" style="border: 2px solid black; border-radius: 50%;"></div>
+                            <div class="reviewpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate laborum natus quos excepturi vel sapiente molestias repudiandae explicabo eos deserunt. Aperiam voluptatum autem exercitationem qui!.</div>
+                            <div class="reviewername"><h3>Nathan D.</h3></div>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked" ></span>
+                                  <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="firstreview">
+                        <div class="reviewcontent">
+                            <div><img src="Wildlife-safari-in-Rajasthan.jpg" alt="reviews" height="100px" width="100px" style="border: 2px solid black; border-radius: 50%;"></div>
+                            <div class="reviewpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate laborum natus quos excepturi vel sapiente molestias repudiandae explicabo eos deserunt. Aperiam voluptatum autem exercitationem qui!.</div>
+                            <div class="reviewername"><h3>Nathan D.</h3></div>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked" ></span>
+                                  <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="reviews">
+                    <div id="firstreview">
+                        <div class="reviewcontent">
+                            <div><img src="Wildlife-safari-in-Rajasthan.jpg" alt="reviews" height="100px" width="100px" style="border: 2px solid black; border-radius: 50%;"></div>
+                            <div class="reviewpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate laborum natus quos excepturi vel sapiente molestias repudiandae explicabo eos deserunt. Aperiam voluptatum autem exercitationem qui!.</div>
+                            <div class="reviewername"><h3>Nathan D.</h3></div>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked" ></span>
+                                  <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="firstreview">
+                        <div class="reviewcontent">
+                            <div><img src="Wildlife-safari-in-Rajasthan.jpg" alt="reviews" height="100px" width="100px" style="border: 2px solid black; border-radius: 50%;"></div>
+                            <div class="reviewpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate laborum natus quos excepturi vel sapiente molestias repudiandae explicabo eos deserunt. Aperiam voluptatum autem exercitationem qui!.</div>
+                            <div class="reviewername"><h3>Nathan D.</h3></div>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked" ></span>
+                                  <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="firstreview">
+                        <div class="reviewcontent">
+                            <div><img src="Wildlife-safari-in-Rajasthan.jpg" alt="reviews" height="100px" width="100px" style="border: 2px solid black; border-radius: 50%;"></div>
+                            <div class="reviewpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate laborum natus quos excepturi vel sapiente molestias repudiandae explicabo eos deserunt. Aperiam voluptatum autem exercitationem qui!.</div>
+                            <div class="reviewername"><h3>Nathan D.</h3></div>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked" ></span>
+                                  <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+               
+
+    </div>
+    <img src="image/ge1.jpg" id="nextbtnn">
+            </div>
+
+            <script>
+                let scrollcon= document.querySelector(".reviewcontainer");
+                let backbtnn = document.getElementById("backbtnn");
+                let nextbtnn = document.getElementById("nextbtnn");
+             
+                scrollcon.addEventListener("wheel",(evt)=>{
+                scrollcon.scrollLeft+= evt.deltav;
+                });
+            
+                nextbtnn.addEventListener("click", ()=>{
+                    scrollcon.style.scrollBehavior= "smooth";
+                    scrollcon.scrollLeft += 500;
+                });
+            
+                backbtnn.addEventListener("click", ()=>{
+                    scrollcon.style.scrollBehavior= "smooth";
+                    scrollcon.scrollLeft -= 500;
+                });
+            
+            </script>
+
+
+
+
+
+
+
+<footer>
+    <div class="footercontainer">
+        <div class="companycontainer content" >
+       <div class="company"><h2>company</h2></div>
+         <div class="companycontent">
+             <p>blog</p>
+             <p>privacy policy</p>
+             <p>Faqs</p>
+         </div>
+        </div> 
+        <div class="contactuscontainer content">
+         <h2>contact us</h2>
+         <p>9300 SE band ave orega,happy 
+             valley,united states
+         </p>
+         <p>8844097651</p>
+        </div>
+        <div class="quicklinkcontainer content">
+            <h2>quick links</h2>
+         <p>home</p>
+         <p>destination</p>
+         <p>about us</p>
+         <p>gallery</p>
+         <p>contact us</p>
+         <p>packages</p>
+        </div>
+        <div class="socialshare   content">
+            <h2>social share</h2>
+         <a href="https://www.facebook.com/" target="_blank">
+          <i class="fa fa-facebook"></i>
+         </a>
+         <a href="https://twitter.com/Twitter" target="_blank">
+             <i class="fa fa-twitter"></i>
+         </a>
+         <a href="https://www.youtube.com/" target="_blank">
+             <i class="fa fa-youtube"></i>
+         </a>
+         <a href="https://www.instagram.com/" target="_blank">
+           <i class="fa fa-instagram"></i>
+         </a>
+       </div>  
+    </div>
+           </footer>
+           <div class="copyrighttext">
+            <p> © copyright 2023</p>
+           </div>
+
+        
+              
+          
+</body>
+    

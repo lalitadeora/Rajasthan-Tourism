@@ -1,0 +1,796 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.outer{
+    height: 3000px;
+    background-color: #dd90b716;
+    
+}
+.outerjodhpur{
+background-color: #1aa3c22b;
+}
+.outerajmer{
+    background-color: #f9f1f6db;
+    }
+
+    .outerudaipur{
+        background-color: white;
+    }
+    .outerjaisalmer{
+        background-color: rgba(218, 165, 32, 0.411);
+    }
+    .outerbikaner{
+        background-color: rgba(128, 0, 128, 0.29);
+    }
+ .outeralwar{
+    background-color: rgba(0, 128, 0, 0.274);
+ }
+ .outerChittorgarh{
+    background-color: #45b60856;
+ }
+ .outersawaimadhopur{
+    background-color: #dbe60037;
+ }
+ .outersirohi{
+    background-color: rgba(128, 255, 0, 0.292);
+ }
+.ww{
+    font-size: 30px;
+    margin-top: 10px;
+margin-left: 90%;
+   
+}
+
+.slider{
+
+    width: auto;
+    height: 550px;
+    
+}
+
+
+
+.gimage{
+    width: 1200px;
+    height: 200px;
+    
+}
+.gimg{
+ width: 1200px;
+ height: 125px;
+ margin-top: 30px;
+ margin-left: 30px;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ background-color: rgba(255, 240, 250, 0.534);
+ color: black;
+ top: 90px;
+ left: 50%;
+ font-size: 15px;
+}
+.menubar{
+ width: 990px;
+ height: 50px;
+ margin-top: 40px;
+
+ background-color: rgba(72, 74, 71, 0.174);
+ float: right;
+ margin-right: 70px;
+}
+.menus{
+    width: 120px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+   
+}
+.menus:hover{
+    color: red;
+}
+.logo{
+   width: 50px;
+   height: 100px;
+  
+   border-radius: 50%; 
+   float: left;
+   margin: 10px;
+}
+
+.text{
+    width: 1000px;
+    position: absolute;
+    top: 300px;
+    font-size: 70px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    color: rgb(243, 246, 248);
+ }
+ .logo img{
+    border-radius: 50px;
+ }
+
+.de1 h1{
+    padding-top: 60px;
+}
+
+ .de1{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(178, 157, 209, 0.337);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+ }
+.con{
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+    height: 550px;
+    display: flex;
+    background-color: rgba(178, 157, 209, 0.337);
+}
+.con1{
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 60px;
+      height:590px;
+     padding: 10px;
+     box-sizing: border-box;
+    padding-top: 120px;
+      align-items: center;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 300;
+      margin-top: -50px;
+      display: flex;
+     font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .con2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/Mahamandir\ \(1\).jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changejodhpur 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changejodhpur{
+    0%{
+        background-image: url("image/jo1.jpg");
+    }
+    18%{
+        background-image: url("image/jj2.jpg");
+    }
+    36%{
+        background-image: url("image/12.jpg");
+    }
+    54%{
+        background-image: url("image/jo51.jpg");
+    }
+    72%{
+        background-image: url("image/Clock-Tower-Jodhpur.jpg");
+    }
+    90%{
+        background-image: url("image/img3.jpg");
+    }
+    100%{
+        background-image: url("image/jj.jpg");
+    }
+  }
+
+
+.hotel{
+   padding: 10px;
+   padding-top: 20px;
+   box-sizing: border-box;
+    height: 790px;
+     align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    background-color: rgba(178, 157, 209, 0.337);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hot1{
+    width: 400px;
+    height: 300px;
+    background-color: #e8439314;
+    align-items: center;
+    display: grid;
+    float: right;
+    margin: 20px;
+    margin-right:70px ;
+    box-shadow: #233e2569 15px 5px 5px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.re{
+   
+    height: 780px;
+     align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    background-color: rgba(178, 157, 209, 0.337);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.re1{
+    width: 400px;
+    height: 300px;
+    background-color: #e8439314;
+    align-items: center;
+    display: grid;
+    float: right;
+    margin: 20px;
+    margin-right:70px ;
+    box-shadow: #233e2569 15px 5px 5px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.gg{
+   
+    height: 970px;
+     align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    background-color: rgba(178, 157, 209, 0.337);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gall1{
+    width: 400px;
+    height: 250px;
+    background-color: #e8439314;
+    align-items: center;
+    display: grid;
+    float: right;
+    margin: 20px;
+    margin-right:70px ;
+    background-color: #0096e623;
+    
+}
+.gall1:hover{
+    opacity: 0.5;
+    transition: 2s;
+    transform: scale(1.1,1.1);
+}
+
+.map{
+    background-color: rgba(178, 157, 209, 0.337);
+}
+
+.footercontainer{
+    height: 270px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    margin: 12px;
+    font-weight: 300px;   
+}
+.content h2{
+    color: #ffffff;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+color:#adb5bd;
+font-size: 20px;
+margin-top: 10px;
+font-weight: 300px;
+
+}
+.content a{
+background-color:#f5f6fa;
+height: 100%;
+width: 100%;
+border-radius: 50%;
+margin:12px;
+padding: 5px;
+}
+.fa-instagram{
+color: #e84393;
+}
+.fa-facebook{
+    color: rgb(71, 71, 232);
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.content i{
+    font-size: 15px;
+}
+.content i{
+    margin-top: 12px;
+}
+.copyrighttext{
+    width: 100%;
+    background-color:#232f3e;
+    padding:20px 100px 30px;
+    text-align: center;
+    color:black;
+}
+.copyrighttext p{
+    font-size: 1rem;
+    color: #adbfbd;
+}
+
+
+
+.text h4{
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+
+.jaipurcon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/jaipur.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: change 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes change{
+    0%{
+        background-image: url("image/About\ Jaipur\ 2.jpg");
+    }
+    18%{
+        background-image: url("image/Traditional-Rajasthani-Lunch-at-Friends-House.jpg");
+    }
+    36%{
+        background-image: url("image/jaipur-india-pink-city.jpg");
+    }
+    54%{
+        background-image: url("image/pink\ city.jpg");
+    }
+    72%{
+        background-image: url("image/jaipur-downtow.jpg");
+    }
+    90%{
+        background-image: url("image/jaipur-must-see.jpg");
+    }
+    100%{
+        background-image: url("image/jaipurtour-61d50d492c150ff.jpg");
+    }
+  }
+  .top{
+    
+    height: 250px;
+    background-color: rgba(178, 157, 209, 0.337);
+  }
+  .top div{
+    width: 200px;
+    height: 90%;
+    background-color: #0096e628;
+    margin: 20px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    float: right;
+  }
+  .top div:hover{
+    opacity: 0.9;
+    transition: 1s;
+    transform: scale(1.2,1.2);
+    color: rgb(193, 39, 39);
+  }
+  .top div img{
+   margin-bottom: 5px;
+   
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    float: right;
+  }
+  .visit{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(178, 157, 209, 0.337);
+    padding-bottom: 80px;
+    font-size: 29px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+
+  .ajmercon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/ajmer\ statue.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changeajmer 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changeajmer{
+    0%{
+        background-image: url("image/ajmer10.jpg");
+    }
+    18%{
+        background-image: url("image/ajmer\ statue.jpg");
+    }
+    36%{
+        background-image: url("image/ajmer11.jpg");
+    }
+    54%{
+        background-image: url("image/ajmer3.jpg");
+    }
+    72%{
+        background-image: url("image/ajmerjpg.jpg");
+    }
+    90%{
+        background-image: url("image/ajmwr9.jpg");
+    }
+    100%{
+        background-image: url("image/ajmer_16.jpg");
+    }
+  }
+  .udaipurcon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/udaipur.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changeudaipur 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changeudaipur{
+    0%{
+        background-image: url("image/uda.jpg");
+    }
+    18%{
+        background-image: url("image/udaipur+cover-min.jpg");
+    }
+    36%{
+        background-image: url("image/udaipur.jpg");
+    }
+    54%{
+        background-image: url("image/udaipur1.jpg");
+    }
+    72%{
+        background-image: url("image/udipur.jpg");
+    }
+    90%{
+        background-image: url("image/Udaipur-1.jpg");
+    }
+    100%{
+        background-image: url("image/india-rajasthan-udaipur-city-palace-keren-su.jpg");
+    }
+  }
+.jaisalmercon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/Jaisalmer-1128x484.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changejaisalmer 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changejaisalmer{
+    0%{
+        background-image: url("image/Havelis_of_Jaisalmer\,_Rajasthan.jpg");
+    }
+    18%{
+        background-image: url("image/jaisalmer-city-view-1024x844.jpg");
+    }
+    36%{
+        background-image: url("image/jaisalmerimg1.jpg");
+    }
+    54%{
+        background-image: url("image/jaisalmer.jpg");
+    }
+    72%{
+        background-image: url("image/the-mama-jaisalmer.jpg");
+    }
+    90%{
+        background-image: url("image/Havelis_of_Jaisalmer\,_Rajasthan.jpg");
+    }
+    100%{
+        background-image: url("image/City-Tour-1\ jaisalmer.jpg");
+    }
+}
+.bikanercon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/bikaner.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changebikaner 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changebikaner{
+    0%{
+        background-image: url("image/img2\ bikaner.jpg");
+    }
+    18%{
+        background-image: url("image/img4\ bikaner.jpg");
+    }
+    36%{
+        background-image: url("image/Shops-selling-Bikaneri-Bhujia.jpg");
+    }
+    54%{
+        background-image: url("image/IMG_27\ bikaner.jpg");
+    }
+    72%{
+        background-image: url("image/Gajner-Palace\ bikaner.jpg");
+    }
+    90%{
+        background-image: url("image/img3\ bikaner.jpg");
+    }
+    100%{
+        background-image: url("image/img2\ bikaner.jpg");
+    }
+}
+.alwarcon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/entry\ alwer.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changealwar 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changealwar{
+    0%{
+        background-image: url("image/alwar2.jpg");
+    }
+    18%{
+        background-image: url("image/alwar\ food.jpg");
+    }
+    36%{
+        background-image: url("image/ALWAR\ \(1\).jpg");
+    }
+    54%{
+        background-image: url("image/1\ alwarsp.jpg");
+    }
+    72%{
+        background-image: url("image/2\ alwar.jpg");
+    }
+    90%{
+        background-image: url("image/alwar\ 11.jpg");
+    }
+    100%{
+        background-image: url("image/alwar-largejpg.jpg");
+    }
+}
+
+
+.sawaimadhopurcon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/sawai.\ img1.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changesawai 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changesawai{
+    0%{
+        background-image: url("image/sawai.img2.jpg");
+    }
+    18%{
+        background-image: url("image/sawai.img3.jpg");
+    }
+    36%{
+        background-image: url("image/sawai.img4.jpg");
+    }
+    54%{
+        background-image: url("image/sawai1.evening-view.jpg");
+    }
+    72%{
+        background-image: url("image/sawai.tiger.img.jpg");
+    }
+    90%{
+        background-image: url("image/sawai\ caption\ \(1\).jpg");
+    }
+    100%{
+        background-image: url("image/sawai.img9.jpg");
+    }
+}
+.Chittorgarhcon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/chi-gaumukh_reservoir.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changechittor 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changechittor{
+    0%{
+        background-image: url("image/chi._sammidhashwar_temple_.jpg");
+    }
+    18%{
+        background-image: url("image/chi.-img..jpg");
+    }
+    36%{
+        background-image: url("image/chi.img3.jpg");
+    }
+    54%{
+        background-image: url("image/chi.-img1.jpg");
+    }
+    72%{
+        background-image: url("image/-chittorgarh-fort.jpg");
+    }
+    90%{
+        background-image: url("image/chittor.the-tower.jpg");
+    }
+    100%{
+        background-image: url("image/chittorgarh-.jpg");
+    }
+}
+.Sirohicon2{
+    width: 25%;
+    height: 500px;
+    display: flex;
+   background-image: url("image/sunset-point-mount-abu.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgba(137, 43, 226, 0.103) 0px 8px 24px ;
+    animation: changesirohi 20s linear infinite ;
+    border-radius: 80px;
+    border-top: 5px solid black ;
+    border-right: 5px solid black;
+  
+  }
+  @keyframes changesirohi{
+    0%{
+        background-image: url("image/sunset-point-mount-abu.jpg");
+    }
+    18%{
+        background-image: url("image/sirohi\ mtabu.jpg");
+    }
+    36%{
+        background-image: url("image/sirohi\ imgg1.jpg");
+    }
+    54%{
+        background-image: url("image/sirohi\ img3.jpg");
+    }
+    72%{
+        background-image: url("image/img1.sirohi.jpg");
+    }
+    90%{
+        background-image: url("image/sirohi.jpg");
+    }
+    100%{
+        background-image: url("image/share-punjab.jpg");
+    } 
+}
+
+.drop::-webkit-scrollbar{
+    display: none;
+}
+.drop{
+   margin-right: 100%;
+    width: 150px;
+    height: 180px;
+   
+   font-size: 18px;
+     display: grid;
+     text-align: center;
+    box-sizing: border-box;
+    
+}
+.drop ul{
+    margin-right: 1700px;
+     padding-right: 600px;
+     text-align: center;
+  
+}
+.drop ul::-webkit-scrollbar{
+    display: none;
+}
+
+.drop li{
+   padding-bottom: 10px;
+  padding-top: 10px;
+  height: 55px;
+ 
+    box-sizing: border-box;
+    background-color: #ca471354;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+}
+.menus1{
+    width: 120px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.menus1 a{
+    text-decoration: none;
+    color: black;
+
+}
+.menus1:hover{
+    color: red;
+   
+}
+
+.menus1 a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.menus1:hover>.drop ul li{
+    color: black;
+    visibility: visible;
+    opacity: 1;
+}
+
+
