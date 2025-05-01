@@ -1,2 +1,3 @@
 # Rajasthan-tourism
-# Rajasthan-Tourism
+Contributor: Nitya Chaudhary(Frontend development)
+Teamwork
