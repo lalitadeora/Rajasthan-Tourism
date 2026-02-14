@@ -836,3 +836,142 @@ box-sizing: border-box;
 
 
 
+@media (max-width:1024px){
+
+    .menubar{
+        width: 100%;
+        float: none;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .menus, .menus1{
+        float: none;
+        display: inline-block;
+        width: auto;
+    }
+
+    .text{
+        font-size: 45px;
+        width: 90%;
+    }
+
+    .information{
+        height: auto;
+    }
+
+    .inf1, .inf2{
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+
+    .inf2{
+        padding-left: 20px;
+        font-size: 24px;
+    }
+
+    .gallery{
+        width: 100%;
+    }
+
+    .reviewcontainer{
+        width: 100%;
+    }
+
+    .activitiesname{
+        flex-wrap: wrap;
+    }
+
+    #active{
+        width: 45%;
+        height: auto;
+    }
+
+    .state{
+        float: none;
+        margin: 20px auto;
+    }
+
+    .footercontainer{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width:768px){
+
+    .text{
+        font-size: 28px;
+        top: 250px;
+    }
+
+    .menubar{
+        height: auto;
+        width: 100%;
+    }
+
+    .menus, .menus1{
+        width: 100%;
+        float: none;
+        margin: 5px 0;
+    }
+
+    .inf2{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .button1{
+        width: 50%;
+        font-size: 18px;
+    }
+
+    .gallery div{
+        grid-template-columns: auto;
+    }
+
+    .gallery div img{
+        width: 100%;
+    }
+
+    #active{
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .reviewcontent{
+        width: 90%;
+        height: auto;
+    }
+
+    .reviewcontainer{
+        flex-direction: column;
+        overflow-x: hidden;
+        height: auto;
+    }
+
+    .state{
+        width: 90%;
+    }
+
+    .box{
+        width: 90%;
+        float: none;
+        margin: 20px auto;
+    }
+
+    .registration-inner{
+        width: 90%;
+        height: auto;
+    }
+
+    .text-box{
+        font-size: 16px;
+    }
+
+}
