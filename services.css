@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -120,4 +120,183 @@ justify-content: center;
 .servi a{
     color: white;
     text-decoration: none;
+} */
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= HEADER ================= */
+
+.header{
+    width: 100%;
+    min-height: 50vh;
+}
+
+.headerimg{
+    width: 100%;
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ================= HEADER TITLE ================= */
+
+.headertitle h2{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.mainheading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+/* ================= CONTENT SECTION ================= */
+
+.contentdiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.firstdiv{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #ffffff;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.firstdiv h2 a{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+
+.firstdiv:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* ================= HOTEL SECTION ================= */
+
+.hotelheading h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    text-transform: capitalize;
+    border-bottom: 2px dotted darkgray;
+    margin: 20px 0;
+}
+
+.hotelcontent p{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: justify;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: rgb(61, 60, 60);
+}
+
+/* ================= SERVICES SECTION ================= */
+
+.main_servi{
+    width: 100%;
+    padding: 50px 20px;
+    background-color: rgba(137, 43, 226, 0.116);    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.servi{
+    width: 250px;
+    padding: 30px 20px;
+    background-color: rgba(10, 10, 10, 0.9);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.servi a{
+    color: white;
+    text-decoration: none;
+}
+
+.servi:hover{
+    transform: scale(1.05);
+    background-color: black;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:1024px){
+
+    .headertitle h2{
+        font-size: 35px;
+    }
+
+    .mainheading{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .contentdiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hotelcontent p{
+        font-size: 16px;
+    }
+
+    .servi{
+        width: 90%;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .headertitle h2{
+        font-size: 28px;
+    }
+
+    .mainheading{
+        font-size: 20px;
+    }
+
 }
