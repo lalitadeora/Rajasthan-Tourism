@@ -794,3 +794,157 @@ color: #e84393;
 }
 
 
+
+
+
+
+
+/* =======================
+   TABLET VIEW
+======================= */
+@media (max-width:1024px){
+
+    .menubar{
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .menus, .menus1{
+        width: auto;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .text{
+        font-size: 40px;
+        width: 90%;
+    }
+
+    .con{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .con1{
+        width: 100%;
+        margin: 0;
+        padding: 40px 20px;
+        font-size: 22px;
+    }
+
+    .con2,
+    .jaipurcon2,
+    .ajmercon2,
+    .udaipurcon2,
+    .jaisalmercon2,
+    .bikanercon2,
+    .alwarcon2,
+    .sawaimadhopurcon2,
+    .Chittorgarhcon2,
+    .Sirohicon2{
+        width: 80%;
+        margin: 20px auto;
+        height: 350px;
+    }
+
+    .hot1,
+    .re1,
+    .gall1{
+        width: 80%;
+        float: none;
+        margin: 20px auto;
+    }
+
+    .footercontainer{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+}
+
+
+/* =======================
+   MOBILE VIEW
+======================= */
+@media (max-width:768px){
+
+    .text{
+        font-size: 28px;
+        top: 250px;
+    }
+
+    .menubar{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menus,
+    .menus1{
+        width: 45%;
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .con1{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .hot1,
+    .re1,
+    .gall1{
+        width: 95%;
+        height: auto;
+    }
+
+    .visit{
+        font-size: 20px;
+    }
+
+    .ww{
+        margin-left: 80%;
+        font-size: 20px;
+    }
+
+}
+
+
+/* =======================
+   SMALL MOBILE
+======================= */
+@media (max-width:480px){
+
+    .text{
+        font-size: 20px;
+    }
+
+    .menus,
+    .menus1{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .footercontainer{
+        padding: 20px;
+    }
+
+    .content h2{
+        font-size: 18px;
+    }
+
+    .content p{
+        font-size: 14px;
+    }
+
+}
+
+
