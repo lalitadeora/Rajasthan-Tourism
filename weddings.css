@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -216,5 +216,267 @@ color: #e84393;
 .copyrighttext p{
     font-size: 1rem;
     color: #adbfbd;
+}
+ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= TOP ICON ================= */
+
+.ww{
+    font-size: 28px;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+/* ================= SLIDER ================= */
+
+.slider{
+    width: 100%;
+    height: auto;
+}
+
+/* ================= IMAGE SECTION ================= */
+
+.gimage{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gimg{
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: rgba(255, 240, 250, 0.534);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ================= NAVBAR ================= */
+
+.menubar{
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: rgba(72, 74, 71, 0.174);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menus{
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menus:hover{
+    color: red;
+}
+
+/* ================= LOGO ================= */
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* ================= HERO TEXT ================= */
+
+.text{
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    font-size: 50px;
+    color: rgb(247, 148, 112);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* ================= MAIN BODY ================= */
+
+.mainbody{
+   background-color:rgb(244, 243, 227);
+   padding-bottom: 50px;
+}
+
+/* ================= ADVENTURE ================= */
+
+.advhead{
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+    margin: 30px 0;
+}
+
+.adventurepara{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* ================= CARD SECTION ================= */
+
+.cardcontainer{
+    width: 90%;
+    max-width: 1300px;
+    margin: 40px auto;
+}
+
+.firstcarddiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.cards{
+    width: 350px;
+    padding: 20px;
+    background-color: #f8e2be;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.cards:hover{
+    transform: translateY(-5px);
+}
+
+.cardcontent a{
+    text-decoration: none;
+}
+
+.heading3{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.heading3:hover{
+    color: rgb(101, 101, 255);
+}
+
+.cardcontent p{
+    font-size: 15px;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(29, 28, 28);
+}
+
+/* ================= FOOTER ================= */
+
+.footercontainer{
+    padding: 40px 20px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.content{
+    margin: 15px;
+}
+
+.content h2{
+    color: #ffffff;
+    font-size:20px;
+}
+
+.content p{
+    color:#adb5bd;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content a{
+    background-color:#f5f6fa;
+    border-radius: 50%;
+    margin:8px;
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+.fa-instagram{ color: #e84393; }
+.fa-facebook{ color: rgb(71, 71, 232); }
+.fa-twitter{ color: #0097e6; }
+.fa-youtube{ color: #e84118; }
+
+.copyrighttext{
+    width: 100%;
+    background-color:#232f3e;
+    padding:15px;
+    text-align: center;
+}
+
+.copyrighttext p{
+    font-size: 14px;
+    color: #adbfbd;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:1024px){
+
+    .text{
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .text{
+        font-size: 30px;
+    }
+
+    .cards{
+        width: 90%;
+    }
+
+    .footercontainer{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .text{
+        font-size: 22px;
+    }
+
+    .advhead{
+        font-size: 20px;
+    }
+
+    .adventurepara{
+        font-size: 16px;
+    }
+
 }
 
