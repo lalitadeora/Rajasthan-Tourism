@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -207,4 +207,254 @@ color: #e84393;
     font-size: 1rem;
     color: #adbfbd;
 }
+ */
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= OUTER ================= */
+
+.outer{
+    background-color: rgb(252, 250, 241);
+    min-height: 100vh;
+}
+
+/* ================= TOP ICON ================= */
+
+.ww{
+    font-size: 28px;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+/* ================= SLIDER ================= */
+
+.slider{
+    width: 100%;
+    height: auto;
+}
+
+/* ================= IMAGE SECTION ================= */
+
+.gimage{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gimg{
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: rgba(255, 240, 250, 0.534);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ================= NAVBAR ================= */
+
+.menubar{
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: rgba(72, 74, 71, 0.174);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menus{
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menus:hover{
+    color: red;
+}
+
+/* ================= LOGO ================= */
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* ================= HERO TEXT ================= */
+
+.text{
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    font-size: 60px;
+    color: rgb(198, 130, 41);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* ================= ADVENTURE ================= */
+
+.advhead{
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+    margin: 30px auto;
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.adventurepara{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+/* ================= HOTEL ================= */
+
+.hotel{
+    margin: 60px auto;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 22px;
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+.hotel h1{
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.hot1{
+    width: 300px;
+    padding: 20px;
+    background-color: #e8439314;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+/* ================= FOOTER ================= */
+
+.footercontainer{
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.content{
+    margin: 15px;
+}
+
+.content h2{
+    color: #ffffff;
+    font-size:22px;
+}
+
+.content p{
+    color:#adb5bd;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.content a{
+    background-color:#f5f6fa;
+    border-radius: 50%;
+    margin:8px;
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+.fa-instagram{ color: #e84393; }
+.fa-facebook{ color: rgb(71, 71, 232); }
+.fa-twitter{ color: #0097e6; }
+.fa-youtube{ color: #e84118; }
+
+.copyrighttext{
+    width: 100%;
+    background-color:#232f3e;
+    padding:15px;
+    text-align: center;
+}
+
+.copyrighttext p{
+    font-size: 14px;
+    color: #adbfbd;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:1024px){
+
+    .text{
+        font-size: 45px;
+    }
+
+    .adventurepara{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .text{
+        font-size: 30px;
+    }
+
+    .menubar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hot1{
+        width: 90%;
+    }
+
+    .footercontainer{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .text{
+        font-size: 22px;
+    }
+
+    .advhead{
+        font-size: 20px;
+    }
+
+    .adventurepara{
+        font-size: 16px;
+    }
+
+}
