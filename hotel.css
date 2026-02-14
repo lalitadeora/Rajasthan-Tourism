@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -228,4 +228,277 @@ color: #e84393;
 .copyrighttext p{
     font-size: 1rem;
     color: #adbfbd;
+} */
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+
+body{
+    background-color: rgb(226, 236, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= TOP ICON ================= */
+
+.ww{
+    font-size: 30px;
+    margin: 10px 20px;
+    text-align: right;
+}
+
+/* ================= SLIDER ================= */
+
+.slider{
+    width: 100%;
+    height: auto;
+}
+
+/* ================= HEADER IMAGE ================= */
+
+.gimage{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gimg{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: 30px auto;
+    background-color: rgba(255, 240, 250, 0.534);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ================= NAVBAR ================= */
+
+.menubar{
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: rgba(72, 74, 71, 0.174);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menus{
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menus:hover{
+    color: red;
+}
+
+/* ================= LOGO ================= */
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* ================= HERO TEXT ================= */
+
+.text{
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    font-size: 60px;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* ================= ABOUT SECTION ================= */
+
+.aboutjodhpurheading{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 1px dotted rgb(35, 34, 34);
+}
+
+.aboutjodhpurcontent p{
+    line-height: 28px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(65, 63, 63);
+}
+
+/* ================= HOTEL SECTION ================= */
+
+.hotel{
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(178, 157, 209, 0.337);
+}
+
+/* ================= ACTIVITIES ================= */
+
+.activitycontainer{
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.activities h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.activitiesname{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#active{
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#active a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0c1011;
+    font-style: italic;
+    font-weight: 700;
+    display: block;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+/* ================= FOOTER ================= */
+
+.footercontainer{
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.content{
+    margin: 15px;
+}
+
+.content h2{
+    color: #ffffff;
+    font-size:22px;
+}
+
+.content p{
+    color:#adb5bd;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.content a{
+    background-color:#f5f6fa;
+    border-radius: 50%;
+    margin:8px;
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+.fa-instagram{ color: #e84393; }
+.fa-facebook{ color: rgb(71, 71, 232); }
+.fa-twitter{ color: #0097e6; }
+.fa-youtube{ color: #e84118; }
+
+.copyrighttext{
+    width: 100%;
+    background-color: #232f3e;
+    padding:15px;
+    text-align: center;
+}
+
+.copyrighttext p{
+    font-size: 14px;
+    color: #adbfbd;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:1024px){
+
+    .text{
+        font-size: 45px;
+    }
+
+    .aboutjodhpurcontent p{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .text{
+        font-size: 30px;
+    }
+
+    .activitiesname{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #active{
+        width: 90%;
+    }
+
+    .footercontainer{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .text{
+        font-size: 22px;
+    }
+
+    .aboutjodhpurheading{
+        font-size: 22px;
+    }
+
 }
