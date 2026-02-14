@@ -154,3 +154,117 @@ color: #e84393;
     color: #adbfbd;
 }
 
+
+
+@media (max-width:1024px){
+
+    .text{
+        width: 90%;
+        font-size: 40px;
+        top: 300px;
+    }
+
+    .adventurepara{
+        position: static;
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .advcontainer{
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .adventuresname{
+        flex-wrap: wrap;
+    }
+
+    #active{
+        width: 45%;
+        height: auto;
+    }
+
+    .footercontainer{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:768px){
+
+    header{
+        height: auto;
+    }
+
+    .img{
+        height: auto;
+        width: 100%;
+    }
+
+    .text{
+        width: 95%;
+        font-size: 26px;
+        top: 220px;
+    }
+
+    .advhead{
+        font-size: 22px;
+    }
+
+    .adventurepara{
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .adventuresname{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #active{
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    #active h2{
+        font-size: 22px;
+    }
+
+    .footercontainer{
+        padding: 20px;
+    }
+
+    .content h2{
+        font-size: 18px;
+    }
+
+    .content p{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .text{
+        font-size: 20px;
+    }
+
+    .advhead{
+        font-size: 18px;
+    }
+
+    .adventurepara{
+        font-size: 14px;
+    }
+
+    #active{
+        width: 95%;
+        padding: 10px;
+    }
+
+}
+
